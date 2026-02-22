@@ -1,0 +1,15 @@
+services:
+  chatbot:
+    #image: poulet0913/promtior-chatbot:latest
+    build: .
+    container_name: promtior-chatbot
+    ports:
+      - "8000:8000"
+    env_file:
+      - .env
+    #volumes:
+    #  - chroma_data:/code/chroma_db
+    restart: unless-stopped
+
+volumes:
+  chroma_data:
