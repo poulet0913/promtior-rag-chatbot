@@ -39,7 +39,6 @@ promtior-rag-chatbot/
 
 ### 1. Obtener API key gratuita de Groq
 - Entrá a https://console.groq.com
-- Creá una cuenta (gratis, sin tarjeta)
 - Andá a *API Keys* → *Create API Key*
 
 ### 2. Crear archivo `.env`
